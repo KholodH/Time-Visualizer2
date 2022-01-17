@@ -3,29 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96930F86BB7DFF73AB4E9F27 /* Pods_Time_Visualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7215E4FEB7D4EE8752A08FC9 /* Pods_Time_Visualizer.framework */; };
 		C353B9C92796017800346BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9C82796017800346BA4 /* AppDelegate.swift */; };
 		C353B9CB2796017800346BA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9CA2796017800346BA4 /* SceneDelegate.swift */; };
-		C353B9CD2796017800346BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9CC2796017800346BA4 /* ViewController.swift */; };
-		C353B9D02796017800346BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C353B9CE2796017800346BA4 /* Main.storyboard */; };
-		C353B9D32796017800346BA4 /* Time_Visualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C353B9D12796017800346BA4 /* Time_Visualizer.xcdatamodeld */; };
 		C353B9D52796017900346BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C353B9D42796017900346BA4 /* Assets.xcassets */; };
 		C353B9D82796017900346BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C353B9D62796017900346BA4 /* LaunchScreen.storyboard */; };
+		C353B9E62796024800346BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C353B9E52796024800346BA4 /* Main.storyboard */; };
+		C353B9FA2796084500346BA4 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9F62796084400346BA4 /* ChartsViewController.swift */; };
+		C353B9FB2796084500346BA4 /* ControllDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9F72796084400346BA4 /* ControllDelegate.swift */; };
+		C353B9FC2796084500346BA4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9F82796084400346BA4 /* CustomTableViewCell.swift */; };
+		C353B9FD2796084500346BA4 /* CustomAddTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9F92796084500346BA4 /* CustomAddTableViewCell.swift */; };
+		C353BA002796085900346BA4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9FE2796085900346BA4 /* MainViewController.swift */; };
+		C353BA012796085900346BA4 /* KeywordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C353B9FF2796085900346BA4 /* KeywordsViewController.swift */; };
+		C353BA04279609A800346BA4 /* TimeVisualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C353BA02279609A800346BA4 /* TimeVisualizer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C353B9ED2796033C00346BA4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		492C5C815BAEE10ACB2AC0CB /* Pods-Time Visualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer.release.xcconfig"; path = "Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer.release.xcconfig"; sourceTree = "<group>"; };
+		7215E4FEB7D4EE8752A08FC9 /* Pods_Time_Visualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Visualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E6E0CEF9BB4C8FF00CA8A4 /* Pods-Time Visualizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer.debug.xcconfig"; path = "Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer.debug.xcconfig"; sourceTree = "<group>"; };
 		C353B9C52796017800346BA4 /* Time Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Visualizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C353B9C82796017800346BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C353B9CA2796017800346BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C353B9CC2796017800346BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C353B9CF2796017800346BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C353B9D22796017800346BA4 /* Time_Visualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Time_Visualizer.xcdatamodel; sourceTree = "<group>"; };
 		C353B9D42796017900346BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C353B9D72796017900346BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C353B9D92796017900346BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C353B9E52796024800346BA4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C353B9F62796084400346BA4 /* ChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		C353B9F72796084400346BA4 /* ControllDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllDelegate.swift; sourceTree = "<group>"; };
+		C353B9F82796084400346BA4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C353B9F92796084500346BA4 /* CustomAddTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAddTableViewCell.swift; sourceTree = "<group>"; };
+		C353B9FE2796085900346BA4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C353B9FF2796085900346BA4 /* KeywordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordsViewController.swift; sourceTree = "<group>"; };
+		C353BA03279609A800346BA4 /* TimeVisualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeVisualizer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96930F86BB7DFF73AB4E9F27 /* Pods_Time_Visualizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4673BF821A03DAEFDC6AC15A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7215E4FEB7D4EE8752A08FC9 /* Pods_Time_Visualizer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		509E2A4DF3F59822DDF3A371 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0E6E0CEF9BB4C8FF00CA8A4 /* Pods-Time Visualizer.debug.xcconfig */,
+				492C5C815BAEE10ACB2AC0CB /* Pods-Time Visualizer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C353B9BC2796017700346BA4 = {
 			isa = PBXGroup;
 			children = (
 				C353B9C72796017800346BA4 /* Time Visualizer */,
 				C353B9C62796017800346BA4 /* Products */,
+				509E2A4DF3F59822DDF3A371 /* Pods */,
+				4673BF821A03DAEFDC6AC15A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +105,19 @@
 		C353B9C72796017800346BA4 /* Time Visualizer */ = {
 			isa = PBXGroup;
 			children = (
+				C353B9F62796084400346BA4 /* ChartsViewController.swift */,
+				C353B9F72796084400346BA4 /* ControllDelegate.swift */,
+				C353B9F92796084500346BA4 /* CustomAddTableViewCell.swift */,
+				C353B9FF2796085900346BA4 /* KeywordsViewController.swift */,
+				C353B9FE2796085900346BA4 /* MainViewController.swift */,
+				C353B9F82796084400346BA4 /* CustomTableViewCell.swift */,
 				C353B9C82796017800346BA4 /* AppDelegate.swift */,
 				C353B9CA2796017800346BA4 /* SceneDelegate.swift */,
-				C353B9CC2796017800346BA4 /* ViewController.swift */,
-				C353B9CE2796017800346BA4 /* Main.storyboard */,
+				C353B9E52796024800346BA4 /* Main.storyboard */,
 				C353B9D42796017900346BA4 /* Assets.xcassets */,
 				C353B9D62796017900346BA4 /* LaunchScreen.storyboard */,
 				C353B9D92796017900346BA4 /* Info.plist */,
-				C353B9D12796017800346BA4 /* Time_Visualizer.xcdatamodeld */,
+				C353BA02279609A800346BA4 /* TimeVisualizer.xcdatamodeld */,
 			);
 			path = "Time Visualizer";
 			sourceTree = "<group>";
@@ -77,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C353B9DC2796017900346BA4 /* Build configuration list for PBXNativeTarget "Time Visualizer" */;
 			buildPhases = (
+				58E9C45B80CB275224FDB86A /* [CP] Check Pods Manifest.lock */,
 				C353B9C12796017800346BA4 /* Sources */,
 				C353B9C22796017800346BA4 /* Frameworks */,
 				C353B9C32796017800346BA4 /* Resources */,
+				C353B9ED2796033C00346BA4 /* Embed Frameworks */,
+				9CB6FB204B45C42AC9F741EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,22 +182,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C353B9E62796024800346BA4 /* Main.storyboard in Resources */,
 				C353B9D82796017900346BA4 /* LaunchScreen.storyboard in Resources */,
 				C353B9D52796017900346BA4 /* Assets.xcassets in Resources */,
-				C353B9D02796017800346BA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58E9C45B80CB275224FDB86A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Visualizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB6FB204B45C42AC9F741EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer/Pods-Time Visualizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C353B9C12796017800346BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C353B9D32796017800346BA4 /* Time_Visualizer.xcdatamodeld in Sources */,
-				C353B9CD2796017800346BA4 /* ViewController.swift in Sources */,
+				C353BA012796085900346BA4 /* KeywordsViewController.swift in Sources */,
+				C353B9FA2796084500346BA4 /* ChartsViewController.swift in Sources */,
 				C353B9C92796017800346BA4 /* AppDelegate.swift in Sources */,
+				C353B9FC2796084500346BA4 /* CustomTableViewCell.swift in Sources */,
+				C353B9FB2796084500346BA4 /* ControllDelegate.swift in Sources */,
+				C353BA002796085900346BA4 /* MainViewController.swift in Sources */,
+				C353B9FD2796084500346BA4 /* CustomAddTableViewCell.swift in Sources */,
+				C353BA04279609A800346BA4 /* TimeVisualizer.xcdatamodeld in Sources */,
 				C353B9CB2796017800346BA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +252,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C353B9CE2796017800346BA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C353B9CF2796017800346BA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C353B9D62796017900346BA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +381,7 @@
 		};
 		C353B9DD2796017900346BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E6E0CEF9BB4C8FF00CA8A4 /* Pods-Time Visualizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +401,7 @@
 		};
 		C353B9DE2796017900346BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492C5C815BAEE10ACB2AC0CB /* Pods-Time Visualizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,13 +443,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C353B9D12796017800346BA4 /* Time_Visualizer.xcdatamodeld */ = {
+		C353BA02279609A800346BA4 /* TimeVisualizer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C353B9D22796017800346BA4 /* Time_Visualizer.xcdatamodel */,
+				C353BA03279609A800346BA4 /* TimeVisualizer.xcdatamodel */,
 			);
-			currentVersion = C353B9D22796017800346BA4 /* Time_Visualizer.xcdatamodel */;
-			path = Time_Visualizer.xcdatamodeld;
+			currentVersion = C353BA03279609A800346BA4 /* TimeVisualizer.xcdatamodel */;
+			path = TimeVisualizer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
